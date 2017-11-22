@@ -1,0 +1,14 @@
+img{
+    height: 100px;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+
+

@@ -1,14 +1,30 @@
 img{
-    height: 100px;
+    width:200px;}
+
+article {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    
     
 }
 
-section {
+.text_d:first-child {
+    background: blue;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     
     
+}
+
+
+.text_g:nth-child(2n+1) {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    
+
 }
 
 

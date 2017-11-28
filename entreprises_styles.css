@@ -112,6 +112,21 @@ h1{
     margin-bottom: 10%;
 }
 
+footer{
+    text-align: center;
+}
+
+footer img{
+    width: 5%;
+    border: 1px solid white;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.3);
+    
+}
+
+
+
+
 /*Nav_bar*/
 
 nav{
@@ -120,7 +135,7 @@ nav{
 
 ul{
     list-style-type: none;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.3);
     height: 60px;
 }
 
@@ -137,6 +152,15 @@ li{
     color: aliceblue;
     font-size: 20px;
     margin-top: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 6%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px
 }
 
 

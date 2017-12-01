@@ -10,7 +10,8 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center
+    background-position: center;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 header{
@@ -43,6 +44,10 @@ article {
     
 }
 
+.ancres img:hover{
+    animation: rubberBand 1s;
+}
+
 .text_d {
     background: rgba(255, 255, 255, 0.6); ;
     display: flex;
@@ -51,15 +56,20 @@ article {
     
     
 }
-
+.text_d img:hover{
+    animation: jello 1s;
+}
 
 .text_g {
     background: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: space-between;
     
-
 }
+.text_g img:hover{
+    animation: jello 1s;
+}
+
 
 h2, h3{
     margin: 2%;
@@ -136,7 +146,7 @@ nav{
 ul{
     list-style-type: none;
     background: rgba(255, 255, 255, 0.3);
-    height: 60px;
+    height: 70px;
 }
 
 ul{
@@ -154,6 +164,10 @@ li{
     margin-top: 20px;
 }
 
+li:hover{
+    animation: zoomOut 3s; 
+}
+
 header a{
     text-decoration: none;
     color: aliceblue;
@@ -162,6 +176,8 @@ header a{
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px
 }
+
+
 
 
 
